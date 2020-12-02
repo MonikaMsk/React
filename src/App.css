@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(13, 88, 113);
+  color: white;
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+
+}
+
+.weather {
+  margin-top: 10vh;
+  font-size: xx-large;
+  font-weight: 500;
+  text-shadow: 3px 3px rgba(50,50,70, 0.1);
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.city {
+  padding: 1vh 1vh;
+}
+
+.temp {
+  padding: 1vh 1vh;
+}
+
+.desc {
+  padding: 1vh 1vh;
+}
+
+.text {
+  padding:10vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
