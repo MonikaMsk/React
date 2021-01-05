@@ -1,7 +1,7 @@
 import { useEffect,useState} from 'react'
 
 
-  const key = "e740ada90ec88b9b35cf28d625c8f75c";
+  
   const url = "https://api.openweathermap.org/data/2.5/"
 
  
